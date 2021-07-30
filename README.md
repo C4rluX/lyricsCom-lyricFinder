@@ -6,10 +6,10 @@ Con este scrapper puedes obtener información (nombre, cantante(s) y letras) de 
 
 Ejemplo de uso:
 ```
-  const lyricFinder = require("./lyricFinder.js");  // Requerir el módulo
-	lyricFinder("Don't stop me now")                  // Llamar al módulo, el único argumento necesario es el término de búsqueda
-		.then(songInfo => console.log(songInfo))        // Mostrar en la consola la información de la canción
-		.catch(err => console.log(err))                 // Mostrar en la consola el error, si ocurrió alguno
+const lyricFinder = require("./lyricFinder.js"); // Requerir el módulo
+lyricFinder("Don't stop me now") // Llamar al módulo, el único argumento necesario es el término de búsqueda
+	.then(songInfo => console.log(songInfo)) // Mostrar en la consola la información de la canción
+	.catch(err => console.log(err)) // Mostrar en la consola el error, si ocurrió alguno
 ```
 
 Ejemplo de la información que devuelve el módulo:
@@ -101,10 +101,10 @@ Con este scrapper puedes obtener información (nombre, cantante(s) y letras) de 
 
 Ejemplo de uso:
 ```
-  const songLinkInfo = require("./songLinkInfo.js");                              // Requerir el módulo
-	songLinkInfo("https://www.lyrics.com/lyric/958332/Survivor/Eye+of+the+Tiger")   // Llamar al módulo, el único argumento necesario es el enlace de la canción en Lyrics.com 
-		.then(songInfo => console.log(songInfo))                                      // Mostrar en la consola la información de la canción
-		.catch(err => console.log(err))                                               // Mostrar en la consola el error, si ocurrió alguno
+const songLinkInfo = require("./songLinkInfo.js"); // Requerir el módulo
+songLinkInfo("https://www.lyrics.com/lyric/958332/Survivor/Eye+of+the+Tiger") // Llamar al módulo, el único argumento necesario es el enlace de la canción en Lyrics.com 
+	.then(songInfo => console.log(songInfo)) // Mostrar en la consola la información de la canción
+	.catch(err => console.log(err)) // Mostrar en la consola el error, si ocurrió alguno
 ```
 
 Ejemplo de la información que devuelve el módulo:
