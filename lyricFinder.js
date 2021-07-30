@@ -5,7 +5,7 @@
 
 /*
 
-	const lyricFinder = require("./lyricsCom-lyricFinder.js");
+	const lyricFinder = require("./lyricFinder.js");
 	lyricFinder("Don't stop me now")
 		.then(songInfo => console.log(songInfo))
 		.catch(err => console.log(err))
