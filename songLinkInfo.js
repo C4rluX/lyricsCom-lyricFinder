@@ -5,7 +5,7 @@
 
 /*
 
-	const songLinkInfo = require("./lyricCom-songInfo.js");
+	const songLinkInfo = require("./songLinkInfo.js");
 	songLinkInfo("https://www.lyrics.com/lyric/958332/Survivor/Eye+of+the+Tiger")
 		.then(songInfo => console.log(songInfo))
 		.catch(err => console.log(err))
