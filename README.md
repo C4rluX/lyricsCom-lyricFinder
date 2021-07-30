@@ -96,8 +96,7 @@ Errores:
 - "Search term not found": Cuando no se ha podido encontrar ninguna canción con el término de búsqueda especificado.
 - Otro error: error ocurrido al conectarse a Lyrics.com (de node-fetch) o durante el scrapping.
 
-API:
-De este scrapper he hecho una API. Funciona exáctamente igual al módulo:
+API: De este scrapper he hecho una API. Funciona exáctamente igual al módulo:
 ```
 GET https://c4rluxweb.tk/api/lyricscom-finder?song=Crazy%20little%20thing%20called%20love
 ```
@@ -168,8 +167,7 @@ Errores:
 - "The song link doesn't work": Cuando el enlace de Lyrics.com no funciona correctamente, es decir, que al visitar ese enlace la página devuelve un error diciendo: "We couldn't find any lyrics matching your query".
 - Otro error: error ocurrido al conectarse a Lyrics.com (de node-fetch) o durante el scrapping.
 
-API:
-De este scrapper tengo una API. Funciona exáctamente igual al módulo:
+API: De este scrapper he hecho una API. Funciona exáctamente igual al módulo:
 ```
 GET https://c4rluxweb.tk/api/lyricscom-songLink?link=https://www.lyrics.com/lyric/27041107/Queen/Bohemian+Rhapsody
 ```
